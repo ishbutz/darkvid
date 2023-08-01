@@ -1,0 +1,150 @@
+.darkvid-panel {
+    position: absolute !important;
+    z-index: 2147483647 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    direction: ltr !important;
+}
+
+.darkvid-panel * {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    height: auto !important;
+    min-width: auto !important;
+    min-height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    display: block !important;
+    color: #c3c3c3 !important;
+    font-family: Tahoma, Geneva, Verdana, sans-serif !important;
+    direction: ltr !important;
+    text-align: left !important;
+    font-size: 12px !important;
+    line-height: 1 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: all !important;
+    appearance: auto !important;
+    -moz-appearance: auto !important;
+    -webkit-appearance: auto !important;
+}
+
+.darkvid-panel button,
+.darkvid-panel a {
+    cursor: pointer !important;
+    text-align: center !important;
+}
+
+.darkvid-button {
+    width: 32px !important;
+    height: 32px !important;
+    border-radius: 50% !important;
+    line-height: 1 !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    opacity: 0.4 !important;
+}
+
+.darkvid-button:hover {
+    background: #4b4646 !important;
+}
+.darkvid-button:focus {
+    outline: none !important;
+}
+.darkvid-button img {
+    width: 16px !important;
+    height: 16px !important;
+    margin: 0 !important;
+    display: inline-block !important;
+}
+
+.darkvid-dropdown {
+    width: 250px !important;
+    background: #1a1919 !important;
+    display: none !important;
+    padding: 7.5px !important;
+    border-radius: 7.5px !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+    overflow-x: hidden !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 39.5px !important;
+}
+.darkvid-panel-audio .darkvid-dropdown {
+    top: auto !important;
+    bottom: 0 !important;
+}
+.darkvid-dropdown.darkvid-dropdown-show {
+    display: block !important;
+}
+.darkvid-dropdown button,
+.darkvid-dropdown a {
+    padding: 7.5px !important;
+    color: #fff !important;
+    background: #03a9f4 !important;
+    border-radius: 7.5px !important;
+    margin-bottom: 7.5px !important;
+}
+.darkvid-dropdown button:hover,
+.darkvid-dropdown a:hover {
+    background: #039be5 !important;
+}
+.darkvid-dpc {
+    scrollbar-width: thin !important;
+    scrollbar-color: #c1c1c1 #f1f1f1 !important;
+    overflow-y: auto !important;
+    padding-right: 7.5px !important;
+    max-height: 220px !important;
+}
+.darkvid-dpc::-webkit-scrollbar {
+    width: 7px !important;
+}
+.darkvid-dpc::-webkit-scrollbar-track {
+    background: #f1f1f1 !important;
+}
+.darkvid-dpc::-webkit-scrollbar-thumb {
+    background-color: #c1c1c1 !important;
+    border-radius: 0 !important;
+    border: 0px solid #f1f1f1 !important;
+}
+
+.darkvid-field {
+    display: grid !important;
+    grid-column-gap: 7.5px !important;
+    grid-template-areas:
+        "l l l l"
+        "r r r n";
+}
+.darkvid-label {
+    grid-area: l;
+    text-transform: capitalize !important;
+    font-weight: bold !important;
+}
+.darkvid-number {
+    grid-area: n;
+    border: 1px solid #e0e0e0 !important;
+    border-radius: 7.5px !important;
+    padding: 6px !important;
+}
+.darkvid-range {
+    grid-area: r;
+}
+
+.darkvid-checkbox {
+    margin-top: 15px !important;
+}
+.darkvid-panel input[type="checkbox"] {
+    width: auto !important;
+    display: inline !important;
+    margin-right: 7.5px !important;
+}
+.darkvid-checkbox label {
+    width: auto !important;
+    display: inline !important;
+    font-weight: bold !important;
+}
