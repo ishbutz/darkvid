@@ -47,10 +47,11 @@
     border: none !important;
     padding: 0 !important;
     margin: 0 !important;
-    opacity: 0.9 !important;
+    opacity: 0.1 !important;
 }
 
 .darkvid-button:hover {
+    opacity: 1 !important;
     background: #4b4646 !important;
 }
 .darkvid-button:focus {
@@ -86,7 +87,7 @@
 .darkvid-dropdown a {
     padding: 7.5px !important;
     color: #fff !important;
-    background: #03a9f4 !important;
+    background: #1a495f !important;
     border-radius: 7.5px !important;
     margin-bottom: 7.5px !important;
 }
@@ -96,7 +97,7 @@
 }
 .darkvid-dpc {
     scrollbar-width: thin !important;
-    scrollbar-color: #c1c1c1 #f1f1f1 !important;
+    scrollbar-color: #1537a7 #1417b3 !important;
     overflow-y: auto !important;
     padding-right: 7.5px !important;
     max-height: 220px !important;
@@ -105,10 +106,10 @@
     width: 7px !important;
 }
 .darkvid-dpc::-webkit-scrollbar-track {
-    background: #f1f1f1 !important;
+    background: #f1f1f125 !important;
 }
 .darkvid-dpc::-webkit-scrollbar-thumb {
-    background-color: #c1c1c1 !important;
+    background-color: #c1c1c13a !important;
     border-radius: 0 !important;
     border: 0px solid #f1f1f1 !important;
 }
