@@ -4,6 +4,7 @@
     "description": "Adjust video brightness, contrast.",
     "version": "1.0.6",
     "homepage_url": "https://github.com/ishbutz/darkvid",
+    "permissions": ["tabs"],
     "icons": {
         "128": "icons/darkvid.png"
     },

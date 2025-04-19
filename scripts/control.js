@@ -2,7 +2,7 @@
  * This script, adds control panel to videos and audios.
  */
 (() => {
-
+    console.log('DarkVid Control Script Loaded');
     // Prevent the script to load multiple times
     if (window.darkvidCL) return;
     window.darkvidCL = true;
@@ -55,6 +55,7 @@
         document.querySelectorAll(`.darkvid-panel-${ms}`).forEach(panel => {
             let id = panel.getAttribute('darkvid-id');
             let media = document.querySelector(`${ms}[darkvid-id="${id}"]`);
+            console.log("media : ", media);
             if (!media) {
                 panel.remove();
                 if (id in mdata) delete mdata[id];
